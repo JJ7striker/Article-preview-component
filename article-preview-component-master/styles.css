@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght,YOPQ@100..900,300&family=Manrope:wght@200..800&family=Miniver&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: hsl(210, 46%, 95%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 170px;
+  font-family: "Manrope", sans-serif;
+}
+
+.card__container {
+  width: 55%;
+  height: 46vh;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.card__container img {
+  width: 40%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.card__container .first_p {
+    font-size: 1.1rem;
+    margin-top: -250px;
+    margin-left: 300px;
+    font-weight: 700;
+    text-align: left;
+    opacity: 0.7;
+    letter-spacing: 0.5px;
+}
+
+.card__container .second_p {
+  font-size: 0.8rem;
+  margin-left: 300px;
+  margin-top: 20px;
+  font-weight: 500;
+  opacity: 0.7;
+}
+
+.card__container .profile img {
+  width: 6%;
+  height: 6%;
+  border-radius: 50%;
+  transform: translate(300px, 20px);
+}
+
+.card__container .profile h3 {
+  font-size: 0.9rem;
+  text-align: center;
+  margin-left: 140px;
+  margin-top: -20px;
+  opacity: 0.7;
+}
+
+
+.card__container .profile p {
+  font-size: 0.7rem; 
+  text-align: center;
+  margin-left: 70px;
+  margin-top: 3px;
+  opacity: 0.4;
+  font-weight: 500;
+}
+
+.socials {
+  width: 50%;
+  height: 25vh;
+  margin-left: 400px;
+  margin-top: -100px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+}
+
+.socials .socials_card {
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  column-gap: 25px;
+  background-color: hsl(217, 19%, 35%);
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+}
+
+.socials .socials_card img {
+  width: 8%;
+  height: auto;
+  border-radius: 50%;
+  transform: translateX(-20px);
+
+}
+.socials .socials_card h3 {
+  font-size: 0.8rem;
+  margin-right: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: hsl(210, 46%, 95%);
+}
+
+.socials .share {
+  width: 7%;
+  height: auto;
+  position: absolute;
+  bottom: 15%;
+  background-color: hsl(217, 19%, 35%);
+  border-radius: 50%;
+  transform: translate(50px, -25px);
+}
+
+.socials .share img {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+}
+
+.socials .hidden {
+  display: none;
+}
+
+
+.socials .socials_card::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 12px solid;
+  border-color: hsl(217, 19%, 35%)transparent transparent transparent;
+}

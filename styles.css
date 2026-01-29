@@ -33,7 +33,7 @@ body {
 .card__container .first_p {
     font-size: 1.1rem;
     margin-top: -230px;
-    margin-left: 300px;
+    margin-left: 350px;
     font-weight: 700;
     text-align: left;
     opacity: 0.7;
@@ -42,7 +42,7 @@ body {
 
 .card__container .second_p {
   font-size: 0.8rem;
-  margin-left: 300px;
+  margin-left: 350px;
   margin-top: 20px;
   font-weight: 500;
   opacity: 0.7;
@@ -96,6 +96,7 @@ body {
   border-radius: 6px;
   padding: 10px;
   position: absolute;
+  margin-left: -150px;
 }
 
 .socials .socials_card img {
